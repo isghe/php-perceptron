@@ -1,4 +1,12 @@
 <?php
+/*	File 			- perceptron.php
+ *      Author                  - Dario Tarantini
+ *	Website			- https://dariotarantini.ga
+ * 	Project			- php-perceptron
+ * 	Project	Website		- https://github.com/vpervenditti/php-perceptron
+ *	Version			- 1
+ *      License                 - https://creativecommons.org/licenses/by-nc-nd/4.0/
+*/
 define("LEARNING_RATE", 0.01);
 define("MAX_ITERATION", 100);
 
