@@ -40,5 +40,4 @@ do{
 	}
 	echo "Iteration $iteration : RMSE = ".sqrt($globalError/$patternCount).PHP_EOL;
 } while ($globalError != 0 && $iteration<=MAX_ITERATION);
-echo PHP_EOL;
 echo "Decision boundary (line) equation: ".$weights[0]."*x + ".$weights[1]."*y + ".$weights[2]." = 0".PHP_EOL;
