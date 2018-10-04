@@ -11,7 +11,7 @@ function calculateOutput($weights, $x, $y){
 srand(time());
 $i = 0;
 
-$ars = file('https://raw.githubusercontent.com/RichardKnop/ansi-c-perceptron/master/test1.txt');
+$ars = file('test1.txt');
 foreach($ars as $ar){
     $temp = explode("\t", $ar);
     $x[$i] = (float) $temp[0];
